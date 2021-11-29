@@ -1,0 +1,33 @@
+/*exactly where this file is imported as classes are used styling would apply there
+and not at all components in entire website with the given class name
+this is done with some random string being applied as class to a tag where this file is used
+so we have scoped our styles
+
+Generally,id or class selectors should be used for scoped styles
+*/
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 4em;
+}
+
+.header h3 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #D42990;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+ }
